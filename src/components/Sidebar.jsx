@@ -1,11 +1,12 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import { Home, Compass, Library, Download, History, Bookmark, Settings, User, LogOut } from 'lucide-react';
+import { Home, Compass, Library, Download, History, Bookmark, Settings, User, LogOut, MessageSquare } from 'lucide-react';
 
 const Sidebar = () => {
   const navItems = [
     { icon: <Home size={24} />, label: 'Home', path: '/' },
     { icon: <Compass size={24} />, label: 'Discover', path: '/discover' },
+    { icon: <MessageSquare size={24} />, label: 'AI Companion', path: '/chat' },
     { icon: <Library size={24} />, label: 'Library', path: '/library' },
     { icon: <Download size={24} />, label: 'Downloads', path: '/downloads' },
     { icon: <History size={24} />, label: 'History', path: '/history' },

@@ -22,3 +22,11 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Python
+venv/
+simple_chatbot/venv/
+.env
+simple_chatbot/.env
+__pycache__/
+*.pyc

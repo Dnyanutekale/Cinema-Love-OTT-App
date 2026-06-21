@@ -1,11 +1,12 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import { Home, Compass, Library, User } from 'lucide-react';
+import { Home, Compass, Library, User, MessageSquare } from 'lucide-react';
 
 const BottomNav = () => {
   const items = [
     { icon: <Home size={22} />, label: 'Home', path: '/' },
     { icon: <Compass size={22} />, label: 'Discover', path: '/discover' },
+    { icon: <MessageSquare size={22} />, label: 'AI Chat', path: '/chat' },
     { icon: <Library size={22} />, label: 'Library', path: '/library' },
     { icon: <User size={22} />, label: 'Profile', path: '/profile' },
   ];

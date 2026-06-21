@@ -7,6 +7,7 @@ import AdminDashboard from './pages/AdminDashboard';
 import SearchResults from './pages/SearchResults';
 import Categories from './pages/Categories';
 import Subscription from './pages/Subscription';
+import Chat from './pages/Chat';
 import Navbar from './components/Navbar';
 import Sidebar from './components/Sidebar';
 import BottomNav from './components/BottomNav';
@@ -31,6 +32,7 @@ function App() {
                 <Route path="/search" element={<SearchResults />} />
                 <Route path="/discover" element={<Categories />} />
                 <Route path="/subscription" element={<Subscription />} />
+                <Route path="/chat" element={<Chat />} />
               </Routes>
             </main>
           </div>
